@@ -2,21 +2,30 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 header{
+    padding: 0px 32px;
     background-color: rgb(33, 64, 131);
     display: flex;
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    
+    color: aliceblue;
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    
+}
+
+.topinfo{
+    padding: 0px 32px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(33, 64, 131);
+    color: aliceblue;
 }
 
 .hlogo{
@@ -24,15 +33,39 @@ ul{
     
 }
 
-.topinfo{
+
+.picinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.picheader{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pics{
     display: flex;
     justify-content: center;
 }
 
 .quote{
+    display: flex;
+    justify-content: center;
     background-color: antiquewhite;
 }
 
+.signup{
+    display: flex;
+    justify-content: center;
+}
+
 footer{
+    padding: 0px 32px;
+    display: flex;
+    justify-content: center;
     background-color: rgb(33, 64, 131);
 }
