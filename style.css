@@ -4,6 +4,15 @@ body{
     justify-content: center;
 }
 
+header{
+    background-color: rgb(33, 64, 131);
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
 ul{
     list-style-type: none;
     display: flex;
@@ -15,14 +24,9 @@ ul{
     
 }
 
-header{
-    background-color: rgb(33, 64, 131);
+.topinfo{
     display: flex;
-    flex: 1;
-    
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
+    justify-content: center;
 }
 
 .quote{
