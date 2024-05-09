@@ -72,12 +72,14 @@ button{
 
 .picheader{
     display: flex;
+    flex:1;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .pics{
     display: flex;
+    flex:1;
     justify-content: center;
     gap: 100px;
 }
@@ -103,17 +105,20 @@ button{
 
 .signup{
     display: flex;
-    flex-direction: column;
+    
     flex: 1;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    background-color: rgb(43, 137, 226);
+    padding: 0px 50px;
+    margin: 25px 120px;
+    border-radius: 8px;
 }
-
-
 
 footer{
     padding: 0px 32px;
     display: flex;
     justify-content: center;
     background-color: #1f2937;
+    color: wheat;
 }
