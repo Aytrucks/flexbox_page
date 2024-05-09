@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    padding: 0px 120px;
+    padding: 0px 300px;
     background-color: #1f2937;
     display: flex;
     
@@ -24,7 +24,8 @@ header{
 
 .hlogo{
     display: flex;
-    color: #f9faf8;
+    flex:1;
+    color: #74c524;
 
 }
 
@@ -35,14 +36,16 @@ ul{
 }
 
 .topinfo{
-    padding: 0px 120px;
+    padding: 0px 300px;
     display: flex;
+    flex:1;
     justify-content: center;
     background-color: #1f2937;
     color: #e5e7eb;
 }
 
 .webinfo{
+    
     display: flex;
     flex: 1;
     flex-direction: column;
