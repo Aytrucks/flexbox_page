@@ -98,7 +98,7 @@ button{
 
 .info{
     text-align: center;
-    padding-bottom: 32px;
+    padding-bottom: 62px;
 }
 
 .aang{
@@ -117,6 +117,7 @@ button{
 
 .quote{
     display: flex;
+    flex-direction: column;
     min-height: 400px;
     font-weight: 50;
     font-size: 32px;
@@ -125,7 +126,14 @@ button{
     justify-content: center;
     align-items: center;
     background-color: antiquewhite;
+}
 
+.speaker{
+    display: flex;
+    align-self: flex-end;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .signup{
@@ -134,9 +142,10 @@ button{
     flex: 1;
     justify-content: space-between;
     align-items: center;
+    color: white;
     background-color: rgb(43, 137, 226);
     padding: 0px 50px;
-    margin: 25px 120px;
+    margin: 75px 120px;
     border-radius: 8px;
 }
 
