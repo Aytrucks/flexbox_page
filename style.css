@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    padding: 0px 32px;
+    padding: 0px 120px;
     background-color: #1f2937;
     display: flex;
     
@@ -20,45 +20,41 @@ header{
     align-items: center;
     color: #e5e7eb;
 
-    border: 1px solid red;
 }
 
 .hlogo{
     display: flex;
     color: #f9faf8;
 
-    border: 1px solid red;
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    border: 1px solid red;
+
 }
 
 .topinfo{
-    padding: 0px 32px;
+    padding: 0px 120px;
     display: flex;
     justify-content: center;
     background-color: #1f2937;
     color: #e5e7eb;
-
-    border: 1px solid red;
 }
 
 .webinfo{
     display: flex;
     flex: 1;
     flex-direction: column;
-
-    border: 1px solid red;
 }
 
 button{
-    padding: 0px 16px;
+    border: none;
+    padding: 4px 24px;
     color:white;
     background-color: rgb(43, 137, 226);
-    border-radius: 2px;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
 .aangimage{
@@ -83,6 +79,17 @@ button{
 .pics{
     display: flex;
     justify-content: center;
+    gap: 100px;
+}
+
+.info{
+    text-align: center;
+}
+
+.aang{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
 }
 
 .quote{
