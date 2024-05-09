@@ -1,42 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 body{
     display: flex;
     margin: 0;
+    
     min-height: 100vh;
     flex-direction: column;
     justify-content: center;
-
+    font-family: 'Roboto',sans-serif;
     
 }
 
 header{
     padding: 0px 32px;
-    background-color: rgb(33, 64, 131);
+    background-color: #1f2937;
     display: flex;
     
     justify-content: space-between;
     align-items: center;
-    color: aliceblue;
+    color: #e5e7eb;
+
+    border: 1px solid red;
 }
 
 .hlogo{
     display: flex;
-    
+    color: #f9faf8;
+
+    border: 1px solid red;
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    
+    border: 1px solid red;
 }
 
 .topinfo{
     padding: 0px 32px;
     display: flex;
     justify-content: center;
-    background-color: rgb(33, 64, 131);
-    color: aliceblue;
+    background-color: #1f2937;
+    color: #e5e7eb;
+
+    border: 1px solid red;
 }
 
+.webinfo{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    border: 1px solid red;
+}
+
+button{
+    padding: 0px 16px;
+    color:white;
+    background-color: rgb(43, 137, 226);
+    border-radius: 2px;
+}
+
+.aangimage{
+    display: flex;
+    flex: 1;
+}
 
 .picinfo{
     display: flex;
@@ -74,14 +102,11 @@ ul{
     align-items: center;
 }
 
-button{
-    display: flex;
-    
-}
+
 
 footer{
     padding: 0px 32px;
     display: flex;
     justify-content: center;
-    background-color: rgb(33, 64, 131);
+    background-color: #1f2937;
 }
