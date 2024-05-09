@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    padding: 0px 300px;
+    padding: 0px 100px;
     background-color: #1f2937;
     display: flex;
     
@@ -25,20 +25,23 @@ header{
 .hlogo{
     display: flex;
     flex:1;
-    color: #74c524;
-
+    color: #e7e7e7;
+    font-weight: 800;
 }
 
 ul{
     list-style-type: none;
     display: flex;
-
+    gap: 8px;
+    color:rgb(163, 161, 161);
 }
 
 .topinfo{
-    padding: 0px 300px;
+    padding: 30px 100px;
+    min-height: 300px;
     display: flex;
     flex:1;
+    align-items: center;
     justify-content: center;
     background-color: #1f2937;
     color: #e5e7eb;
@@ -49,6 +52,7 @@ ul{
     display: flex;
     flex: 1;
     flex-direction: column;
+    
 }
 
 button{
@@ -63,9 +67,11 @@ button{
 .aangimage{
     display: flex;
     flex: 1;
+    min-width: 100px;
 }
 
 .picinfo{
+    padding: 0px 100px;
     display: flex;
     flex:1;
     justify-content: center;
@@ -75,9 +81,11 @@ button{
 
 .picheader{
     display: flex;
-    flex:1;
+    height: 100px;
+
     justify-content: center;
     align-items: center;
+    font-size: large;
     font-weight: bold;
 }
 
@@ -90,10 +98,12 @@ button{
 
 .info{
     text-align: center;
+    padding-bottom: 32px;
 }
 
 .aang{
-    border: 1px solid rgb(58, 119, 168);
+    border: 2px solid rgb(58, 119, 168);
+    flex: auto;
     border-radius: 8px;
     width: 100px;
     height: 100px;
@@ -101,10 +111,16 @@ button{
 
 .imgtxt{
     color:gray;
+    font-size: small;
+    width: 100px;
 }
 
 .quote{
     display: flex;
+    min-height: 400px;
+    font-weight: 50;
+    font-size: 32px;
+    padding: 0px 128px;;
     flex:1;
     justify-content: center;
     align-items: center;
@@ -114,7 +130,7 @@ button{
 
 .signup{
     display: flex;
-    
+    min-height: 100px;
     flex: 1;
     justify-content: space-between;
     align-items: center;
@@ -126,8 +142,10 @@ button{
 
 footer{
     padding: 0px 32px;
+    min-height: 40px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     color: wheat;
 }
